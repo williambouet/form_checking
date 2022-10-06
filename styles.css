@@ -9,9 +9,11 @@
 
     --primary-color:rgb(41, 71, 204);
     --secondary-color:rgb(47, 52, 85);
-    --light-color:rgb(223, 226, 247);
+    --light-color:rgb(245, 246, 255);
     --dark-color:rgb(3, 7, 36);
     --intermediate-color:rgb(154, 159, 180);
+    --alert-color:rgb(255, 228, 228);
+    --high-alert-color:red;
 
     --spacing:8px;
     --spacing2: calc(var(--spacing) * 2);
@@ -76,10 +78,15 @@ button[type = "submit"] {
 }
 
 button:hover {
-filter: brightness(120%);
+    filter: brightness(120%);
 }
 
 button:active {
     filter: brightness(80%);
-    }
-    
+}
+
+.errors {
+    background-color: var(--high-alert-color);
+    color:var(--alert-color);
+    font-weight: bold;
+}
