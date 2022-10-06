@@ -55,6 +55,12 @@ input, textarea {
     width: 100%;
     border-radius: var(--radius);
     height:110%;
+    padding-block: 4px;
+}
+
+select {
+    padding-block: 4px;
+
 }
 
 button[type = "submit"] {
@@ -66,6 +72,7 @@ button[type = "submit"] {
     border-radius: var(--radius);
     padding-block: var(--spacing);
     padding-inline: var(--spacing3);
+    font-weight: bolder;
 }
 
 button:hover {
