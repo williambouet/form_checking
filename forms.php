@@ -10,22 +10,23 @@
 <body>
     <main>
 
+        <h1>Me contacter</h1>
         <form action="" method="post">
-            <label for="firstname"></label>
+            <label for="firstname">Votre prénom</label>
             <input type="text" name="firstname" id="firstname">
 
-            <label for="lastname"></label>
+            <label for="lastname">Votre nom</label>
             <input type="text" name="lastname" id="lastname">
 
-            <label for="subject"></label>
+            <label for="subject">Choisissez un sujet</label>
             <select name="subject" id="subject">
                 <option value="hello">Me faire un coucou</option>
-                <option value="insult">M'insulter'</option>
+                <option value="insult">M'insulter</option>
                 <option value="job">Me faire une proposition</option>
                 <option value="clue">Me donner un conseil</option>
             </select>
 
-            <label for="message"></label>
+            <label for="message">Votre message</label>
             <textarea name="message" id="" cols="30" rows="10"></textarea>
 
             <button type="submit">Envoyer</button>
